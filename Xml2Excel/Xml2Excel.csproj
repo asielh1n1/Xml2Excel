@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Asiel Hernandez Valdes</Authors>
+    <Company>qvasoft</Company>
+    <Description>Library to convert xml to excel using Net.Core</Description>
+    <Version>1.0.2</Version>
+    <PackageTags>xml,excel</PackageTags>
+    <PackageReleaseNotes>Added return excel in a MemoryStream</PackageReleaseNotes>
+    <Copyright>Copyright © Asiel Hernandez Valdes 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <NeutralLanguage>C#</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.95.4" />
+  </ItemGroup>
+
+</Project>
